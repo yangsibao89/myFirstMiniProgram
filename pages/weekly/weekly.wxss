@@ -1,8 +1,23 @@
 /* pages/weekly/weekly.wxss */
-.container{
+
+.container {
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: space-around;
   align-items: center;
+}
+
+.movie {
+  display: flex;
+}
+
+.movie-image {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
 }

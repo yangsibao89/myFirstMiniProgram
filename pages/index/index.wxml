@@ -5,7 +5,7 @@
   <text style="font-weight:bold;font-size:60rpx;">我的心乘着</text>
   <view>
     <text>斑驳的轻舟</text>
-    <navigator url="/pages/weekly/weekly" style="display:inline;" open-type="navigate" hover-class="nav-hover"  class="nav-default">forever</navigator>
+    <navigator url="/pages/weekly/weekly" style="display:inline;" open-type="switchTab" hover-class="nav-hover"  class="nav-default">forever</navigator>
     <text>寻找失落的沙洲</text>
   </view>
   <text>young folks</text>

@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/weekly/weekly",
+    "pages/index/index",
     "pages/logs/logs"
   ],
   "window": {
@@ -15,13 +15,20 @@
   "tabBar": {
     "color": "#444444",
     "backgroundColor": "#adcdab",
-    "position": "top",
+    "position": "bottom",
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "index"
+      "text": "index",
+      "iconPath":"icon/person.png",
+      "selectedIconPath":"icon/person1.png"
     },{
       "pagePath":"pages/logs/logs",
       "text":"logs"
+    },{
+      "pagePath":"pages/weekly/weekly",
+      "text":"weekly",
+      "iconPath":"icon/block.png",
+      "selectedIconPath":"icon/block1.png"
     }]
   },
   "requiredBackgroundModes": ["audio"],
