@@ -1,0 +1,7 @@
+<!--pages/weekly/weekly.wxml-->
+<view class="container">
+  <text>我的滑板鞋时尚最时尚</text>
+  <image src="/images/godfather.jpg"></image>
+  <text>回家的路上我情不自禁</text>
+  <text>摩擦摩擦</text>
+</view>

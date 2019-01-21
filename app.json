@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/weekly/weekly",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#adcdab",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "我的第一个小程序",
+    "backgroundColor": "#333333",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#444444",
+    "backgroundColor": "#adcdab",
+    "position": "top",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "index"
+    },{
+      "pagePath":"pages/logs/logs",
+      "text":"logs"
+    }]
+  },
+  "requiredBackgroundModes": ["audio"],
+  "permission":{
+    "scope.userLocation":{
+      "desc":"你的小程序想知道你在哪"
+    }
+  }
+}
