@@ -5,12 +5,24 @@ Page({
    * 页面的初始数据
    */
   data: {
-    thisWeekMovie: {
-      name: "教父",
-      comment: "仁慈的父我已坠入看不见罪的国度",
-      imagePath: "/images/godfather.jpg",
-      isHighlyRecommend: true
-    },
+    weeklyMovieList: [{
+        name: "教父",
+        comment: "仁慈的父我已坠入看不见罪的国度",
+        imagePath: "/images/godfather.jpg",
+        isHighlyRecommend: true
+      },
+      {
+        name: "爆裂无声",
+        comment: "该看不看的",
+        imagePath: "/images/1.jpg",
+        isHighlyRecommend: true
+      }, {
+        name: "狗十三",
+        comment: "让我想起一条叫小黄的狗",
+        imagePath: "/images/dog13.jpg",
+        isHighlyRecommend: true
+      }
+    ],
     count: 10,
     score: 67,
   },

@@ -1,14 +1,14 @@
 <!--pages/weekly/weekly.wxml-->
 <view class="container">
   <text>本周推荐</text>
-  <view class="movie">
-    <image class="movie-image" src="{{thisWeekMovie.imagePath}}"></image>
+  <view class="movie" wx:for="{{weeklyMovieList}}" wx:key="{{index}}">
+    <image class="movie-image" src="{{item.imagePath}}"></image>
     <view class="movie-details">
-      <text>{{thisWeekMovie.name}}</text>
-      <text>点评：{{thisWeekMovie.comment}}</text>
+      <text>第{{index+1}}部:{{item.name}}</text>
+      <text>点评：{{item.comment}}</text>
       <!-- <text>{{count}}</text> -->
       <!-- <text>{{(score>=60)?"能看":"不能看"}}</text> -->
-      <text wx:if="{{thisWeekMovie.isHighlyRecommend}}" style="font-size:16px;color:red">强烈推荐</text>
+      <text wx:if="{{item.isHighlyRecommend}}" style="font-size:16px;color:red">强烈推荐</text>
     </view>
     <!-- <text hidden="{{thisWeekMovie.isHighlyRecommed}}">hidden与wx:if的区别要注意</text> -->
   </view>
