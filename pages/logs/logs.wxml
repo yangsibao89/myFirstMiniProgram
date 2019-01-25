@@ -1,2 +1,19 @@
 <!--pages/logs/logs.wxml-->
 <text>pages/logs/logs.wxml</text>
+
+<view>
+  <swiper style='backgroud:black;'>
+    <swiper-item>
+      <text>123</text>
+      <image src='/images/1.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <text>456</text>
+      <image src='/images/cat.jpg'></image>
+    </swiper-item>
+    <swiper-item>
+      <text>789</text>
+      <image src='/images/dog13.jpg'></image>
+    </swiper-item>
+  </swiper>
+</view>
