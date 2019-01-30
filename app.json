@@ -19,22 +19,22 @@
     "list": [{
       "pagePath": "pages/index/index",
       "text": "index",
-      "iconPath":"icon/person.png",
-      "selectedIconPath":"icon/person1.png"
-    },{
-      "pagePath":"pages/logs/logs",
-      "text":"logs"
-    },{
-      "pagePath":"pages/weekly/weekly",
-      "text":"weekly",
-      "iconPath":"icon/block.png",
-      "selectedIconPath":"icon/block1.png"
+      "iconPath": "icon/person.png",
+      "selectedIconPath": "icon/person1.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "logs"
+    }, {
+      "pagePath": "pages/weekly/weekly",
+      "text": "weekly",
+      "iconPath": "icon/block.png",
+      "selectedIconPath": "icon/block1.png"
     }]
   },
   "requiredBackgroundModes": ["audio"],
-  "permission":{
-    "scope.userLocation":{
-      "desc":"你的小程序想知道你在哪"
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的小程序想知道你在哪"
     }
   }
 }
