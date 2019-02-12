@@ -3,7 +3,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 120vh;
+  height: 100vh;
   justify-content: space-around;
   align-items: center;
 }
@@ -21,4 +21,25 @@
   display: flex;
   flex-direction: column;
   width: 550rpx;
+}
+
+.movie-swiper{
+  height: 90vh;
+}
+
+.movie-card{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.return-button{
+  position: absolute;
+  right: 0;
+  top: 20rpx;
+  font-size: 26rpx;
+  font-style: initial;
+  border: 1px double purple;
+  border-right: 0;
+  border-radius: 10%;
 }

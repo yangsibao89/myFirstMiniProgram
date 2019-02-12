@@ -1,5 +1,6 @@
 <!--pages/logs/logs.wxml-->
 <text>pages/logs/logs.wxml</text>
+<text style="">美丽世界的孤儿</text>
 
 <view>
   <swiper style='backgroud:black;'>
