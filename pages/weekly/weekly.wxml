@@ -1,6 +1,7 @@
 <!--pages/weekly/weekly.wxml-->
 <view class="">
   <text>本周推荐</text>
+  <text >lalalala</text>
   <swiper>
     <swiper-item class="movie" wx:for="{{weeklyMovieList}}" wx:key="{{index}}">
       <image class="movie-image" src="{{item.imagePath}}"></image>
