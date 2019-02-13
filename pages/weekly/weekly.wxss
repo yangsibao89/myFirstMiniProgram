@@ -25,6 +25,7 @@
 
 .movie-swiper{
   height: 90vh;
+  width: 50vw;
 }
 
 .movie-card{
