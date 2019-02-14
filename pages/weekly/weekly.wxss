@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  width: 100vw;
   justify-content: space-around;
   align-items: center;
 }
@@ -25,7 +26,7 @@
 
 .movie-swiper{
   height: 90vh;
-  width: 50vw;
+  width: 100vw;
 }
 
 .movie-card{
@@ -41,6 +42,5 @@
   font-size: 26rpx;
   font-style: initial;
   border: 1px double purple;
-  border-right: 0;
   border-radius: 10%;
 }

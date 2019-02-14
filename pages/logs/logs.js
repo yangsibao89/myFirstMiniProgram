@@ -5,7 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
+    count: 0
+  },
 
+  funTest: function () {
+    // this.data.count = this.data.count + 1;
+    // console.log(this.data.count);
+    this.setData({
+      count: this.data.count + 1
+    })
   },
 
   /**

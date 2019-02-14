@@ -17,4 +17,7 @@
       <image src='/images/dog13.jpg'></image>
     </swiper-item>
   </swiper>
+
+  <text>{{count}}</text>
+  <button bindtap="funTest">+1</button>
 </view>
