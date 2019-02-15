@@ -39,9 +39,16 @@ Page({
 
   testBindTap: function (event) {
     this.setData({
-        count: this.data.count + 1,
-        "weeklyMovieList[2].name": "godfather 3"
-      })
+      count: this.data.count + 1,
+      "weeklyMovieList[2].name": "godfather" + this.data.count
+    });
+    // console.log(event);
+  },
+
+  returnCurrentWeek: function (event) {
+    this.setData({
+      currentIndex: this.data.weeklyMovieList.length - 1
+    })
   },
 
   /**
