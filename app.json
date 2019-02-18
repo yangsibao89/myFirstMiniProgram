@@ -2,7 +2,8 @@
   "pages": [
     "pages/weekly/weekly",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/details/details"
   ],
   "window": {
     "navigationBarBackgroundColor": "#adcdab",

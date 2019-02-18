@@ -3,7 +3,7 @@
   <text>本周推荐</text>
   <swiper class="movie-swiper" indicator-dots="{{true}}" current="{{currentIndex}}">
     <swiper-item class="movie" wx:for="{{weeklyMovieList}}" wx:key="{{index}}">
-      <view class="container movie-card">
+      <view class="container movie-card" bindtap="navigateToDetails">
         <image class="movie-image" src="{{item.imagePath}}"></image>
         <!-- <view class="movie-details"> -->
         <text>第{{index+1}}部:{{item.name}}</text>
